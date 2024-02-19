@@ -1,0 +1,14 @@
+<h1>{{ app_title }}</h1>
+<br />
+<br />
+<div [style.background-color]="color">
+  liaison par attribut : background color is {{ color }}
+</div>
+<br />
+<br />
+<button (click)="color = 'green'">
+  liaison par event : background color is now {{ color }}
+</button>
+<br />
+<br />
+<p>liaison par String Interpollation : {{ nom }}</p>
